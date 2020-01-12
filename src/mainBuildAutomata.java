@@ -1,14 +1,15 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//test
 public abstract class mainBuildAutomata {
 	static ArrayList<String[]> list = new ArrayList<String[]>();
 	static String s;
 	
 	public static void main(String[] args) {
-		
+		Scanner scanS = new Scanner(System.in);
 		while (true) {
-			Scanner scanS = new Scanner(System.in);
+			
 			System.out.println("String: ");
 			s = scanS.next();
 			
@@ -19,6 +20,7 @@ public abstract class mainBuildAutomata {
 			prepareAutomat3();
 			executeAutomat();
 		}
+		scanS.close();
 	}
 	
 	static void executeAutomat(){
