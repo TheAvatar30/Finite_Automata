@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-//test
 public abstract class mainBuildAutomata {
 	static ArrayList<String[]> list = new ArrayList<String[]>();
 	static String s;
